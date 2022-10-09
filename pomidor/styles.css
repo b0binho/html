@@ -253,6 +253,110 @@ footer {
     opacity: 0.4;
     font-weight: 200;
 }
+.belgijski {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+    float: left;
+}
+
+.belgijski img{
+    margin-top: 8%;
+    margin-right: 10%;
+    width: 100%;
+    
+}
+.belgijski h1{
+    text-align: center;
+    color: rgba(179, 17, 170, 0.61);
+    font-family: "Montserrat", sans-serif;
+    
+}
+.belgijski a1 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#edf0f1; 
+    
+}
+.bengalski{
+    display:inline-block;
+    width: 30%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.bengalski h1{
+    text-align: center;
+    color: rgba(173, 171, 46, 0.877);
+    font-family: "Montserrat", sans-serif;
+   
+}
+.bengalski a2{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#edf0f1; 
+}
+.bengalski img{
+    margin-top: 8%;
+    width: 100%;
+    height: 315px;
+    
+}
+.maine-coon{
+    display:inline-block;
+    width: 30%;
+    float: right;
+    margin-right: 10%;
+}
+
+.maine-coon h1{
+    text-align: center;
+    color: rgba(39, 124, 180, 0.89);
+    font-family: "Montserrat", sans-serif;
+
+}
+.maine-coon a2{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#edf0f1; 
+}
+.maine-coon img{
+    margin-top: 8%;
+    width: 100%;
+    height: 315px;
+    
+    
+}
+.ragdoll {
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.ragdoll img{
+    margin-top: 8%;
+    margin-right: 10%;
+    width: 100%;
+    
+}
+.ragdoll h1{
+    text-align: center;
+    color: rgba(189, 121, 44, 0.781);
+    font-family: "Montserrat", sans-serif;
+    
+}
+.ragdoll a2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color:#edf0f1; 
+    
+}
+
+
+
+
 
 @media screen and (max-width: 767px) {
 
@@ -284,9 +388,19 @@ footer {
         }
 
         img {
-            width: 500px;
+            width: 100%;
             display: block;
+       
+        }
+        
+        .koty{
+            display: block;
+            width: 100%;
         }
 
+
+
+
 }
+
 
