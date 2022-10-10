@@ -31,6 +31,7 @@ header {
 
 .nav__links {
     list-style: none;
+    display: block;
 }
 
 .nav__links li {
@@ -354,23 +355,23 @@ footer {
     
 }
 
+.icon {
 
+    display: none
+
+}
 
 
 
 @media screen and (max-width: 767px) {
 
-        .nav__links{
+       
+
+        .nav__links {
             display: none;
-            flex-direction: column;
-            width: 100%;
         }
 
-        .nav__links.show{
-            display: flex;
-        }
-
-        .hamburger{
+        .icon {
             display: block;
         }
 
@@ -379,7 +380,9 @@ footer {
         }
 
         .nav__links li a {
-            padding: 10px;
+            display: flex;
+            justify-content: center;
+
         }
 
 
@@ -397,7 +400,7 @@ footer {
             display: block;
             width: 100%;
         }
-
+  
 
 
 

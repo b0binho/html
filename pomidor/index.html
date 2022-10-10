@@ -12,12 +12,10 @@
         <header>
             <img class="logo" src="logo.svg" alt="logo" >
             <nav>
-                <button class="hamburger" id="hamburger">
-                    <a>hamberger</a > 
-                    <i class="fas fa-bars"></i>
-                    <script src="script.js"></script>
-                 </button>
-                <ul class="nav__links">
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+                <ul class="nav__links" id="nav__links">
                     <li><a href="#">Servicesek</a></li>
                     <li><a href="#">Projekty</a></li>
                     <li><a href="#">O nas</a></li>
@@ -66,6 +64,17 @@
                 <p>copyright &copy;IV AI Stronka designed by<span> Tobiasz Jabłoński</span></p>
             </div>
         </footer>
+
+        <script>
+            function myFunction() {
+              var x = document.getElementById("nav__links");
+              if (x.style.display === "block") {
+                x.style.display = "none";
+              } else {
+                x.style.display = "block";
+              }
+            }
+            </script>
 
 
 
