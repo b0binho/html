@@ -1,4 +1,7 @@
 <?php
-echo "otrzmyalem:", '<pre>' . print_r($_REQUEST, 1).'</pre>';
+require_once ('usersRepository.php');
 
+if (isCorrectUser($_REQUEST['login'], $_REQUEST['password']))  $_SESSION['isUserLogged']=1;
+header("Location:index.php");
+else echo '<strong style="color:red; font-weight: bold">błędne dane logowania </strong><br>';
 ?>

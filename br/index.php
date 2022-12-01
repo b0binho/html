@@ -1,5 +1,7 @@
 <?php
-$zalogowany = 0;
+session_start();
+  
+$zalogowany = $_SESSION['isUserLogged'];
   if ($zalogowany) header('Location: dashboard.php');
   
 
