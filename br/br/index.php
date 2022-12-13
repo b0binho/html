@@ -1,4 +1,5 @@
 <?php
+require_once 'mysqlDb.php';
 require_once 'check_login.inc.php';
 if ($zalogowany) header('Location: dashboard.php');
 

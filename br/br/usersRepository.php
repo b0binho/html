@@ -10,8 +10,11 @@ function getUsers() {
 
 }
 
-function isCorrectUser($login, $password) {
+function isCorrectUser($login, $password) { 
+    global $conn;
+    if (!$conn) {
     $users = getUsers();
     return (isset($users[$login])) && ($users[$login] == $password);
+    }
 }
 
